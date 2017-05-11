@@ -38,6 +38,8 @@ cdef class PyDarts:
         if self._da.open(src.encode('utf-8')) < 0:
             raise PyDartsError('Failed to open dict')
 
+        return self
+
     cdef void _build(self, keys):
         cdef const char** _m_keys = <const char**>malloc(len(keys) * sizeof(char*))
 

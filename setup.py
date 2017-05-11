@@ -14,7 +14,7 @@ else:
 
 setup(
     name="pydarts",
-    version="1.1.0",
+    version="1.1.1",
     description="Python binding of Darts",
     author="JX PRESS Corp.",
     author_email="info@jxpress.net",
