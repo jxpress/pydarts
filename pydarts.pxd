@@ -9,5 +9,5 @@ cdef extern from "darts.h" namespace "Darts":
         int open(const char*)
         int size()
         void clear()
-        size_t commonPrefixSearch(char *key, result_pair_type*, size_t)
-        void exactMatchSearch(const char*, int, size_t, size_t) const
+        size_t common_prefix_search "commonPrefixSearch"(char *key, result_pair_type*, size_t)
+        # void exactMatchSearch(const char*, int, size_t, size_t) const

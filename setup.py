@@ -11,7 +11,7 @@ else:
 
 setup(
     name="pydarts",
-    version="1.1.2",
+    version="1.1.4",
     description="Python binding of Darts",
     author="JX PRESS Corp.",
     author_email="info@jxpress.net",
@@ -21,7 +21,6 @@ setup(
     classifiers=[
         "License :: OSI Approved :: Apache Software License",
         "Programming Language :: Cython",
-        "Programming Language :: Python :: 2",
         "Programming Language :: Python :: 3"
     ]
 )
